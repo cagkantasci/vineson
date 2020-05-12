@@ -4,6 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7140,5 +7141,24 @@ a.text-dark:hover, a.text-dark:focus {
 
 .wrapper {
   padding-top: 5rem; }
+
+/* COLORS */
+/* GOOGLE FONTS */
+.top-bar {
+  height: 30px;
+  background-color: #127caf;
+  line-height: 30px;
+  color: white; }
+  .top-bar a {
+    color: white;
+    text-decoration: none; }
+  .top-bar .top-bar-right {
+    padding-left: 10px; }
+    .top-bar .top-bar-right a {
+      font-size: 13px;
+      padding-right: 5px; }
+      .top-bar .top-bar-right a i {
+        font-size: 16px;
+        padding-right: 5px; }
 
 /*# sourceMappingURL=app.css.map */

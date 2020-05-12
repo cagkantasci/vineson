@@ -6,6 +6,15 @@ $primary : #cacaca!default;
 .wrapper{
   padding-top: 5rem;
 }
+/* COLORS */
+
+$red : #ab1100;
+$blue : #127caf;
+$green : #9fb602;
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+$base-font : 'Montserrat', sans-serif;
 
 // $vals: 768px, 992px, 1200px;
 // $breaks: sm, md, xl;
@@ -63,3 +72,26 @@ $primary : #cacaca!default;
 //     margin-bottom: ($i * $base-space);
 //   }
 // }
+
+
+.top-bar {
+  height: 30px;
+  background-color: $blue; 
+  line-height: 30px;
+  color: white;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .top-bar-right {
+    padding-left: 10px;
+    a {
+      font-size: 13px;
+      padding-right: 5px;
+      i {
+        font-size: 16px;
+        padding-right: 5px;
+      }
+    }
+  }
+}
