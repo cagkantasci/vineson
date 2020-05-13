@@ -11,6 +11,7 @@ $primary : #cacaca!default;
 $red : #ab1100;
 $blue : #127caf;
 $green : #9fb602;
+$turquaz :#16c1d1;
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
@@ -72,16 +73,32 @@ $base-font : 'Montserrat', sans-serif;
 //     margin-bottom: ($i * $base-space);
 //   }
 // }
-
+body {
+  font-family: $base-font;
+}
 
 .top-bar {
   height: 30px;
-  background-color: $blue; 
+  background-color: $turquaz; 
   line-height: 30px;
   color: white;
   a {
     color: white;
     text-decoration: none;
+  }
+  .top-bar-left {
+    p {
+      font-weight: 600;
+      a {
+        font-weight: normal;
+
+        transition: 0.8s ease ;
+        &:hover {
+          color: lighten($red, 40%);
+          transition: 0.8s ease-in ;
+        }
+      }
+    }
   }
   .top-bar-right {
     padding-left: 10px;

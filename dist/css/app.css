@@ -7144,14 +7144,25 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* COLORS */
 /* GOOGLE FONTS */
+body {
+  font-family: "Montserrat", sans-serif; }
+
 .top-bar {
   height: 30px;
-  background-color: #127caf;
+  background-color: #16c1d1;
   line-height: 30px;
   color: white; }
   .top-bar a {
     color: white;
     text-decoration: none; }
+  .top-bar .top-bar-left p {
+    font-weight: 600; }
+    .top-bar .top-bar-left p a {
+      font-weight: normal;
+      transition: 0.8s ease; }
+      .top-bar .top-bar-left p a:hover {
+        color: #ff8578;
+        transition: 0.8s ease-in; }
   .top-bar .top-bar-right {
     padding-left: 10px; }
     .top-bar .top-bar-right a {
